@@ -56,7 +56,7 @@ To stop the keylogger, press the `ESC` key.
 pip install pynput
 ```
 - Clone the Repository:
-Open VS Code and use the integrated terminal to clone the repository:
+  Open VS Code and use the integrated terminal to clone the repository:
 
 ```
 git clone https://github.com/nagrajnaik1416/Smart-Keylogger.git
@@ -79,7 +79,7 @@ python smartkeylogger.py
   
   To stop the keylogger, press the `ESC` key.
 
-# Packaging (Optional):
+## Packaging (Optional):
 You can package the script into an executable using PyInstaller for easier deployment.
 
 ### Install PyInstaller:
@@ -103,8 +103,9 @@ Once you have created the executable using PyInstaller, you can deploy and use i
 ### Transfer the Executable:
 
 Windows: Copy the executable from the `dist` directory to the remote machine using methods such as email, cloud storage (e.g., Google Drive, Dropbox), or file transfer tools (e.g., SCP, FTP).
-Linux: Use scp, rsync, or any other file transfer method to move the executable to the remote machine.
-Run the Executable:
+- Linux: Use scp, rsync, or any other file transfer method to move the executable to the remote machine.
+
+#### Run the Executable:
 
 - Windows: On the remote machine, double-click the executable or run it from the command prompt.
 
@@ -124,15 +125,15 @@ chmod +x smartkeylogger
 
 The keylogger will create and update the key_log.txt file in the same directory where the executable is run. Ensure you have access to this file for monitoring.
 
-Stopping the Keylogger: To stop the keylogger, press the `ESC` key.
+#### Stopping the Keylogger: To stop the keylogger, press the `ESC` key.
 
 
-# Usage:
+## Usage:
 
 - The keylogger logs keystrokes to `key_log.txt`.
 - The log file will be updated in real-time as keys are pressed.
 
-# Legal and Ethical Considerations
+## Legal and Ethical Considerations
 - Permission: Ensure you have explicit permission to run this keylogger on any computer.
 - Compliance: Follow all local laws and regulations regarding privacy and monitoring.
 
